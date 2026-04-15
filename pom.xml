@@ -4,11 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
          http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.ecommerce</groupId>
-    <artifactId>ecommerce-app</artifactId>
+    <groupId>com.electricity</groupId>
+    <artifactId>electricity-billing</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
-    
+
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
@@ -43,7 +43,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.ecommerce.EcommerceApp</mainClass>
+                            <mainClass>com.electricity.BillingCalculator</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
